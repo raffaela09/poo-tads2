@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="AB_z1bc57qqzVgjTjhvz">
+    <mxGraphModel dx="1426" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-1" value="Usuarios" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-9" value="Email :&lt;div&gt;Senha:&lt;/div&gt;&lt;div&gt;Nome:&lt;/div&gt;&lt;div&gt;Tipo de cliente&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-1">
+          <mxGeometry x="40" y="15" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-2" value="Clientes Finais" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-11" value="Cpf&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-2">
+          <mxGeometry x="75" y="35" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-3" value="Funcionario" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-16" value="Cpf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-3">
+          <mxGeometry x="80" y="50" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-4" value="Mercadoria" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-13" value="Peso&lt;div&gt;Tamanho&lt;/div&gt;&lt;div&gt;Fragil&lt;/div&gt;&lt;div&gt;Embalagem&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-4">
+          <mxGeometry x="55" y="30" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-5" value="Pequenos comercios" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="314" y="310" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-15" value="Cnpj&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-5">
+          <mxGeometry x="75" y="35" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-6" value="Transporte" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="560" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-14" value="Tipo&lt;div&gt;Placa&lt;/div&gt;&lt;div&gt;Km&lt;/div&gt;&lt;div&gt;Preco por km&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-6">
+          <mxGeometry x="50" y="30" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-8" value="Endereco" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-12" value="Cep&lt;div&gt;Rua&lt;/div&gt;&lt;div&gt;Estado&lt;/div&gt;&lt;div&gt;Numero&lt;/div&gt;&lt;div&gt;Cidade&lt;/div&gt;&lt;div&gt;bairro&lt;/div&gt;&lt;div&gt;Logradouro&lt;/div&gt;&lt;div&gt;Ponto de referencia&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Q5Vky6Pq44dejIpI0ZLv-8">
+          <mxGeometry x="30" y="20" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q5Vky6Pq44dejIpI0ZLv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.805;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q5Vky6Pq44dejIpI0ZLv-4" target="Q5Vky6Pq44dejIpI0ZLv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
